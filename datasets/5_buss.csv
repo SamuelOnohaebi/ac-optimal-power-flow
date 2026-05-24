@@ -1,0 +1,6 @@
+BusNo,BusCode,VoltagePU,Angle,GenMW,GenMvar,LoadMW,LoadMvar
+1,Swing,1.06,0,0,0,0,0
+2,PQ,1.00,0,40,30,20,10
+3,PQ,1.00,0,0,0,45,15
+4,PQ,1.00,0,0,0,40,5
+5,PQ,1.00,0,0,0,60,10
