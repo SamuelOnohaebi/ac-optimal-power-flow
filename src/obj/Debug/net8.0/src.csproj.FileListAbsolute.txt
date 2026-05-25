@@ -1,0 +1,15 @@
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/bin/Debug/net8.0/src
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/bin/Debug/net8.0/src.deps.json
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/bin/Debug/net8.0/src.runtimeconfig.json
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/bin/Debug/net8.0/src.dll
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/bin/Debug/net8.0/src.pdb
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.GeneratedMSBuildEditorConfig.editorconfig
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.AssemblyInfoInputs.cache
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.AssemblyInfo.cs
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.csproj.CoreCompileInputs.cache
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.sourcelink.json
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.dll
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/refint/src.dll
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.pdb
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/src.genruntimeconfig.cache
+/home/samuel-onohaebi/Documents/Projects/ac-optimal-power-flow/src/obj/Debug/net8.0/ref/src.dll
