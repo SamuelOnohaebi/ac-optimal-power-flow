@@ -15,6 +15,15 @@ class Program
                 $"Bus {bus.BusNum} | Type: {bus.Type} | V: {bus.VoltagePU} p.u. | Angle: {bus.PhaseAngle}° | Net P: {bus.NetMW} MW | Net Q: {bus.NetMvar} Mvar"
             );
         }
+
+        var txns = LoadLineTable("../datasets/5_line.csv");
+
+        foreach (var txn in txns)
+        {
+            Console.WriteLine(
+                $"From Bus {txn.FromBus} | To Bus {txn.ToBus} | R: {txn.ReactancePU} p.u. | Q: {txn.ReactancePU} p.u. | B: {txn.ChargingPU} p.u. "
+            );
+        }
     }
 
     static List<Bus> LoadBusTable(string filePath)
@@ -43,5 +52,30 @@ class Program
         }
 
         return buses;
+    }
+
+    static List<Line> LoadLineTable(string filePath)
+    {
+        var txns = new List<Line>();
+
+        string[] lines = File.ReadAllLines(filePath);
+
+        for (int i = 1; i < lines.Length; i++)
+        {
+            string[] columns = lines[i].Split(',');
+
+            var txn = new Line
+            {
+                FromBus = int.Parse(columns[0]),
+                ToBus = int.Parse(columns[1]),
+                ResistancePU = double.Parse(columns[2], CultureInfo.InvariantCulture),
+                ReactancePU = double.Parse(columns[3], CultureInfo.InvariantCulture),
+                ChargingPU = double.Parse(columns[4], CultureInfo.InvariantCulture),
+            };
+
+            txns.Add(txn);
+        }
+
+        return txns;
     }
 }
