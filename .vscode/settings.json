@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/Renewable-Energy-Integration.aux": true,
+        "**/Renewable-Energy-Integration.log": true,
+        "**/Renewable-Energy-Integration.gz": true,
+        "**/Renewable-Energy-Integration.out": true
+    }
+}

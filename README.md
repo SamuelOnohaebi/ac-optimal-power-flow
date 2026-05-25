@@ -19,3 +19,17 @@ Renewable Energy Integration
 - Pyomo
 - NumPy
 - Pandas
+
+Software Architecture Planning
+
+A structured layered software architecture was designed to separate:
+• data,
+• models,
+• solver logic,
+• and visualisation.
+
+This structure improves:
+• scalability,
+• maintainability,
+• readability,
+• and future feature integration.
