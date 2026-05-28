@@ -4,7 +4,7 @@ using System.Numerics;
 
 public class PowerSolver
 {
-    public int BusNo { get; set; }
+    public int BusNum { get; set; }
     public double SpecifiedP { get; set; }
     public double CalculatedP { get; set; }
     public double DeltaP { get; set; }
