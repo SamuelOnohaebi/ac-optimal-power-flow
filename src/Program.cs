@@ -24,6 +24,9 @@ class Program
                 $"From Bus {txn.FromBus} | To Bus {txn.ToBus} | R: {txn.ReactancePU} p.u. | Q: {txn.ReactancePU} p.u. | B: {txn.ChargingPU} p.u. "
             );
         }
+
+        var yBus = YBusBuilder.BuildYBus(buses, txns);
+        YBusBuilder.PrintYBus(yBus);
     }
 
     static List<Bus> LoadBusTable(string filePath)
