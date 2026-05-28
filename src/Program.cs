@@ -27,6 +27,17 @@ class Program
 
         var yBus = YBusBuilder.BuildYBus(buses, txns);
         YBusBuilder.PrintYBus(yBus);
+
+        double baseMVA = 100.0;
+
+        var mismatches = PowerCalculator.Calculate(buses, yBus, baseMVA);
+
+        foreach (var mismatch in mismatches)
+        {
+            Console.WriteLine(
+                $"Bus {mismatch.BusNum} | ΔP = {mismatch.DeltaP:F6} p.u. | ΔQ = {mismatch.DeltaQ:F6} p.u."
+            );
+        }
     }
 
     static List<Bus> LoadBusTable(string filePath)
